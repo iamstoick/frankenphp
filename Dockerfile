@@ -1,4 +1,4 @@
-FROM php:8.2.0RC5-zts-bullseye AS php-base
+FROM php:8.4.4-zts-bullseye AS php-base
 
 # rebuild PHP until https://github.com/docker-library/php/pull/1331 is merged
 RUN set -eux; \
